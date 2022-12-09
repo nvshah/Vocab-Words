@@ -1,0 +1,37 @@
+N - team
+
+each team - ID, ( first , second ) : (1,2 ,..N)
+
+5 strength/team
+
+atleast 3 units then team win against other team : higher, & same { team with lower team id } 
+
+
+
+
+______
+
+
+Inp :
+
+T , no. of test case
+Each contain : N+1 lines : 1st : no of team
+ 
+                           next n lines : 5 numbers representing respective strength
+
+o/p :  for each test case print  
+
+Constraint : 
+
+ 1 <= T <= 10
+
+
+10 22 4 1 12  -> 1     -> 1
+22 21 4 8 9
+
+9 9 7 2 18     -> 2
+6 12 14 11 1
+
+
+
+Redis cache, Denormalize.cs, Office Setup info from database
